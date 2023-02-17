@@ -1,0 +1,19 @@
+export default {
+    url:'https://v6.exchangerate-api.com/v6/d0d50b7f331d8e6e91146ac3',
+    codes:[],
+    pair:{
+        from:'',
+        to:'',
+    },
+    amount:'',
+    loading:false,
+    currentTab:'convert', 
+    currency:{
+        code:'USD'
+    },
+    currencies:['USD','EUR','BYN','RUB','AMD'],
+    actions:{
+        remove:'remove',
+        change:'change',
+    },
+}
